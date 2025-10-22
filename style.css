@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fbfd;
+  color: #222;
+}
+
+.hero {
+  background: url('ENCRYPT IT Main 11.JPG') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+nav {
+  background-color: #0a2540;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover, nav a.active {
+  color: #00b3ff;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+h1, h2 {
+  color: #0a2540;
+}
+
+.main-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #0a2540;
+  color: #d1e4ff;
+  padding: 15px;
+  font-size: 0.9rem;
+  margin-top: 30px;
+}
